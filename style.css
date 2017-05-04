@@ -13,7 +13,7 @@ li {
   list-style-type: none; }
 
 #header {
-  background: url(../img/hamachi-hero.jpeg) no-repeat center center;
+  background: url(hamachi-hero.jpeg) no-repeat center center;
   background-size: cover;
   height: 100vh;
   color: #FFF; }
@@ -123,13 +123,13 @@ section {
     overflow: hidden;
     padding-left: 60px; }
     #features ul #on-demand {
-      background: url("../img/on-demand.png") left top no-repeat; }
+      background: url("on-demand.png") left top no-repeat; }
     #features ul #manage-restore {
-      background: url("../img/manage-restore.png") left top no-repeat; }
+      background: url("manage-restore.png") left top no-repeat; }
     #features ul #centralized {
-      background: url("../img/centalized.png") left top no-repeat; }
+      background: url("centalized.png") left top no-repeat; }
     #features ul #unattended-access {
-      background: url("../img/unattended-access.png") left top no-repeat; }
+      background: url("unattended-access.png") left top no-repeat; }
     #features ul li {
       background-size: 90px !important;
       width: 50%;
@@ -152,11 +152,11 @@ section {
     margin: 0 auto;
     padding: 0; }
     .primary ul #gateway {
-      background: url("../img/gateway.png") center top no-repeat; }
+      background: url("gateway.png") center top no-repeat; }
     .primary ul #hub-and-spoke {
-      background: url("../img/hub-and-spoke.png") center top no-repeat; }
+      background: url("hub-and-spoke.png") center top no-repeat; }
     .primary ul #mesh-network {
-      background: url("../img/mesh-network.png") center top no-repeat; }
+      background: url("mesh-network.png") center top no-repeat; }
     .primary ul li {
       background-size: 90px 90px !important;
       display: inline-block;
@@ -177,11 +177,11 @@ section {
   .light p {
     color: #555; }
   .light #encrypted {
-    background: url("../img/encrypted.png") center top no-repeat; }
+    background: url("encrypted.png") center top no-repeat; }
   .light #centralized-access {
-    background: url("../img/centralized-access.png") center top no-repeat; }
+    background: url("centralized-access.png") center top no-repeat; }
   .light #network-client {
-    background: url("../img/network-client.png") center top no-repeat; }
+    background: url("network-client.png") center top no-repeat; }
 
 .white {
   background: #FFF;
@@ -232,7 +232,7 @@ section {
     position: relative; }
     #pricing ul li .ribbon {
       display: block;
-      background: url("../img/banner@2x.png");
+      background: url("banner@2x.png");
       background-repeat: no-repeat;
       background-size: 280px 50px;
       width: 280px;
