@@ -13,7 +13,7 @@ li {
   list-style-type: none; }
 
 #header {
-  background: url("hamachi-hero.jpeg") no-repeat center center;
+  background: url(hamachi-hero.jpeg) no-repeat center center;
   background-size: cover;
   height: 100vh;
   color: #FFF; }
@@ -44,7 +44,8 @@ li {
     max-width: 900px;
     text-align: center; }
     #header #hero img#main-logo {
-      width: 306px; }
+      width: 50%;
+      max-width: 300px; }
     #header #hero h1 {
       margin: 0;
       color: #FFF;
@@ -340,8 +341,16 @@ footer {
     font-weight: 300; }
 
 @media screen and (max-width: 768px) {
+  #header .top {
+    padding: 30px 10px; }
+    #header .top nav a {
+      margin: 0 10px; }
+    #header .top .user {
+      right: 10px !important; }
+      #header .top .user a {
+        margin: 0 10px; }
   #header #hero p {
-    font-size: 16px; }
+    font-size: 20px; }
 
   #features ul li, .primary ul li {
     width: 100%; }
@@ -356,12 +365,16 @@ footer {
     .white .row img {
       display: none; }
 
+  #pricing > h2 {
+    margin-bottom: 20px !important; }
+  #pricing > p {
+    width: 90%; }
   #pricing ul li {
     width: 45%;
     display: inline-block;
     margin: 10px; }
     #pricing ul li .buy-now {
-      margin: 10px 0 3% 0; }
+      margin: 10px 0 20px 0; }
     #pricing ul li .ribbon {
       display: none; }
 
@@ -372,5 +385,65 @@ footer {
 
   footer ul {
     margin: 20px auto; } }
+@media screen and (max-width: 480px) {
+  #header {
+    height: 65vh; }
+    #header .top {
+      display: none !important; }
+    #header #hero {
+      position: relative;
+      top: 50%; }
+      #header #hero img#main-logo {
+        width: 65%; }
+      #header #hero p {
+        margin: 25px auto;
+        font-size: 20px; }
+      #header #hero h1 {
+        margin-top: 10px; }
+    #header #scroll-down {
+      display: none; }
+
+  #features h2 {
+    margin-bottom: 50px; }
+  #features ul {
+    padding-left: 0;
+    width: 80% !important; }
+  #features li {
+    padding: 110px 0 10px 0  !important;
+    text-align: center; }
+    #features li h3 {
+      margin-bottom: 8px; }
+
+  ul {
+    overflow: hidden;
+    padding-left: 60px; }
+    ul #on-demand {
+      background: url("on-demand.png") center top no-repeat !important; }
+    ul #manage-restore {
+      background: url("manage-restore.png") center top no-repeat !important; }
+    ul #centralized {
+      background: url("centalized.png") center top no-repeat !important; }
+    ul #unattended-access {
+      background: url("unattended-access.png") center top no-repeat !important; }
+
+  .primary h2 {
+    width: 90% !important;
+    margin: 0 auto !important; }
+
+  #pricing ul li {
+    width: 100%;
+    display: block;
+    margin: 10px auto; }
+    #pricing ul li .buy-now {
+      margin: 10px 0 20px 0; }
+    #pricing ul li .ribbon {
+      display: none; }
+    #pricing ul li header {
+      margin-bottom: 10px; }
+    #pricing ul li p {
+      margin: 20px auto; }
+    #pricing ul li .computer-number {
+      font-size: 20px;
+      padding: 10px; } }
 
 /*# sourceMappingURL=style.css.map */
